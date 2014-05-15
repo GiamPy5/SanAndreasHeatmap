@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 
 require_once('assets/classes/sanandreas_heatmap.php');
 
-$heatmap = 
+$heatmap =
     array(
         'debug'  => FALSE,
         'noc'    => 32,
@@ -20,18 +20,18 @@ $directory =
     );
 
 $database =
-	array(
-		'type' 	   => 'array',
+    array(
+        'type'     => 'array',
 
         'hostname' => 'localhost',
         'username' => 'root',
-        'password' => '',       
+        'password' => '',
         'database' => 'heatmap',
 
         'table' => 'coordinates',
         'x_column' => 'x',
-        'y_column' => 'y'
-	);
+            'y_column' => 'y'
+    );
 
 $Heatmap = new CSanAndreasHeatmap($database, $directory, $heatmap);
 

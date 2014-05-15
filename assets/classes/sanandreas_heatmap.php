@@ -215,10 +215,6 @@ class CSanAndreasHeatmap {
             return true;
         }
     }
-
-    public function load() {
-        // Load every coordinate inside the $hidta_coordinates Array.
-    }
     
     protected function get_database() {
         return $this->database_handler;
