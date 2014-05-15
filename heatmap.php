@@ -35,7 +35,7 @@ $database =
 
 $Heatmap = new CSanAndreasHeatmap($database, $directory, $heatmap);
 
-$Heatmap->create_map("map3000.jpg");
+$Heatmap->create_map("map6000.jpg");
 
 $Heatmap->apply_heatmap();
 
