@@ -30,7 +30,7 @@ $database =
 
         'table' => 'coordinates',
         'x_column' => 'x',
-            'y_column' => 'y'
+        'y_column' => 'y'
     );
 
 $Heatmap = new CSanAndreasHeatmap($database, $directory, $heatmap);
